@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../imageprocessing.gen/sources_1/ip/output_buffer/sim/output_buffer.v" \
+"../../../../imageprocessing.srcs/sources_1/new/conv.v" \
+"../../../../imageprocessing.srcs/sources_1/new/image_control.v" \
+"../../../../imageprocessing.srcs/sources_1/new/image_process_top.v" \
+"../../../../imageprocessing.srcs/sources_1/new/line_buffer.v" \
+"../../../../imageprocessing.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
