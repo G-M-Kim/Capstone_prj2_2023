@@ -21,11 +21,11 @@ This is a project for the final presentation of the Capstone Design 2 course.
 https://github.com/vipinkmenon/SpatialFilter
 
 ## References
-#Learning Materials
+# Learning Materials
 Reconfigurable Embedded Systems with Xilinx Zynq APSoC by **Vipin Kizheppatt**
 (https://www.youtube.com/playlist?list=PLXHMvqUANAFOviU0J8HSp0E91lLJInzX1)
 
-#Images
+# Images
 Computed tomography of the head (Wikipedia) for CT image
 Magnetic resonance angiography (WIkipedia) for MRA image
 
