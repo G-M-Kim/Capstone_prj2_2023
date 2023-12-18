@@ -6,26 +6,26 @@ This is a project for the final presentation of the Capstone Design 2 course.
 
 # This project includes...
 - Sobel operation using 4 line buffers
-- Edge extraction through convolution (adjusting the threshold for specific purposes)
+- Edge extraction through convolution (adjust the threshold for specific purposes)
 - Pixel enhancement/weakening for the extracted edges (use as needed)
 
 ![2023-12-18 19 03 00](https://github.com/G-M-Kim/Capstone_prj2_2023/assets/127372167/b1fe948d-d417-4499-9dcd-d940def06cb4)
 
 # How to use
 - Edge enhancement of BMP images with 512*512 pixels and 8-bit values (0~255)
-- Input file names as gray_img or color_img -> output result as enhanced_img
+- Input file names as gray_img and color_img -> output result as enhanced_img
 - In Vivado, input and output 8-bit BMP files.
-- When using FPGA in Vitis, file conversion in header format is required.
+- When using FPGA in Vitis, file conversion in .h format is required.
 
 ### This project is a personal adaptation of the following project. ###
 https://github.com/vipinkmenon/SpatialFilter
 
 ## References
-Learning Materials
-Reconfigurable Embedded Systems with Xilinx Zynq APSoC by Vipin Kizheppatt
+#Learning Materials
+Reconfigurable Embedded Systems with Xilinx Zynq APSoC by **Vipin Kizheppatt**
 (https://www.youtube.com/playlist?list=PLXHMvqUANAFOviU0J8HSp0E91lLJInzX1)
 
-Images
+#Images
 Computed tomography of the head (Wikipedia) for CT image
 Magnetic resonance angiography (WIkipedia) for MRA image
 
